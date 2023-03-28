@@ -18,14 +18,14 @@ class Square:
         """
         self.size = size
 
-    @property
+        @property
     def size(self):
         """
         Gets the value
         """
         return (self.__size)
 
-     @size.setter
+    @size.setter
     def size(self, value):
         """
         Set the size
@@ -42,7 +42,7 @@ class Square:
         """
         return (self.__size * self.__size)
 
-    def my_print(self):
+     def my_print(self):
         """
         print in stdout the square with the character #
         """
@@ -53,3 +53,4 @@ class Square:
                 for x in range(self.__size):
                     print("#", end="")
                 print()
+
