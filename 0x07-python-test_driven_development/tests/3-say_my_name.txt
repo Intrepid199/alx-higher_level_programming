@@ -49,7 +49,7 @@ Checking for normal use:
 
 Checking for 1 arg:
 	 >>> say_my_name("Hello")
- My name is Hello
+	 My name is Hello
 
 Checking for more than 2 args:
 	 >>> say_my_name("Hello", "World", "hi")
